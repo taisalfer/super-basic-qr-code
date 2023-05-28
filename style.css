@@ -1,71 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
 *{
-    box-sizing: border-box;
     margin: 0;
+    padding: 0;
 }
+
 body{
-    font-family: 'Roboto Slab', serif;
-}
-.content {
     display: flex;
-    justify-content: center;
     align-items: center;
-    align-content: center;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.qr-card{
+    background-color: white;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.qr{
     width: 100%;
-    height: 100vh;
-}
-
-.title{
-    color: rgb(32, 32, 41);
-    font-family: 'Roboto Slab', serif;
-    padding: 8px;
-}
-
-.secondtext{
-    color: rgba(63, 63, 66, 0.678);
-}
-
-.card{
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 2px 18px;
-    border-radius: 12px;
-}
-
-.mediacard{
-    background: url('https://i0.wp.com/oportaln10.com.br/wp-content/uploads/2022/05/Black-Mirror-vai-retornar-com-nova-temporada-na-Netflix.jpg?fit=1024%2C576&ssl=1') center/cover;
-    height: 250px;
-    width: 100%;
-    transition: 0ms;
+    border-radius: 10px;
     cursor: pointer;
-    
 }
 
-.topo{
+.improve{
+    text-align: center;
     padding: 20px;
-    padding-top: 0px;
+    color: hsl(218, 44%, 22%);
+    font-size: 22px;    
 }
 
-.bottomcard{
-    padding: 20px;
-}
-
-.actions{
-    background-color: rgba(216, 209, 205, 0.541);
-    border: none;
-    border-radius: 9px;
-    cursor: pointer;
-    color: rgb(199, 175, 37);
-}
-
-.actioncard {
-    display: flex;
-    justify-content: center;
-    gap: 32px;
-    padding-top: 15px;
-    font-family: 'Roboto' sans-serif;
-}
-
-.bottomtext{
-    width: 200px;
-    height: 200px;
+.scan{
+    text-align: center;
+    color: hsl(220, 15%, 55%);
 }
